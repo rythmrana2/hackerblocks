@@ -2,7 +2,9 @@
 #include<string.h>
 #include<algorithm>
 using namespace std;
-
+//another way of this method is to find the hightest bars on both the sides and store them in leftarray and right array 
+//and then traverse the original array amd take the minimum of left hight and right highest for the current element 
+//and subtract the current element from it and then add it to the water variable.
 int main()
 {
     int t;
