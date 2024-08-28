@@ -3,6 +3,9 @@
 //my most basic approach wa to do a n^2 loop to find the two unique numbers
 //then O(n) ws to use an array or map to store the count of all numbers to then provide the unique number
 //i knew xor wont work for two unique numbers so i was confused
+//another approach i thought was to create a set and input all number sin set if number already present remove
+//it from set and therefore at last we will only have two things in set that is our solution. in leet code same thing
+//is done using hash set as lookup in hash set is o(1).
 //coding blocks gave this solution i am implementing below
 //for the approach coding blocks gave i thought to actually create two arrays to store the two sets and then do the xor
 // on the individual arrays to get the unique numbers however what coding blocks did was different, they directly
