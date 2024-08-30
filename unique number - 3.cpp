@@ -22,7 +22,11 @@
 //0, this is more optimized then mine. rest everything they did same.
 //gfg's implementation of this same solution is different and that is working correctly for negative numbers as well
 //however mine is working correctly for negative numbers if i only take till 32 bits and not 64. not sure what is wrong
-//gfg has another solution for this question which went over my head.
+//gfg has another solution for this question which is the simplest. what it does is - if a bit comes once, set its bit
+//in ones variable, if it comes twice, set it in twos variable but unset it in ones variable. if it comes thrice,
+//unset it in both ones and twos by keep not of that bit in notthree variable and setting ones as ones & notthree and
+//same with twos to remove the bit repeating thrice. this is a very nice and easy solution but difficult to understand.
+//i have not implemented this amazing solution but it can be easily implemented.
 #include <iostream>
 using namespace std;
 
