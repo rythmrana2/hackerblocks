@@ -1,6 +1,8 @@
 // unique number - 3.cpp
 
 //first way is to use a n^2 loop to find the numbers with two matches.
+//another approach which didn't come to my mind but is easy and could have come to my mind and i read online is to 
+//sort the array and then find the number
 //second way is to store the numbers and their counts in a map and use it to find the unique number(delete the 
 //numbers whose count becomes three from the map to make the unique number easier to find at last)
 //above method can also be done with array
