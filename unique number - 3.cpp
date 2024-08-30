@@ -28,7 +28,8 @@
 //in ones variable, if it comes twice, set it in twos variable but unset it in ones variable. if it comes thrice,
 //unset it in both ones and twos by keep not of that bit in notthree variable and setting ones as ones & notthree and
 //same with twos to remove the bit repeating thrice. this is a very nice and easy solution but difficult to understand.
-//i have not implemented this amazing solution but it can be easily implemented.
+//i have implemented this amazing solution in more optimized file.
+
 #include <iostream>
 using namespace std;
 
