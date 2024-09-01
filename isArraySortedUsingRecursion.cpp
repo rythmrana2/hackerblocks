@@ -25,8 +25,12 @@ bool isArraySortedIterative(int a[], int n, int i){
     return false;
 }
 int main(){
-    int n = 10;
-    int a[]={ 1,2,3,4,5,6,7,8,9,10 };
-    cout<<isArraySortedIterative(a, n, 0);
+    int n;
+    cin>>n;
+    int a[n];
+    for(int i=0;i<n;i++){
+        cin>>a[i];
+    }
+    cout<<boolalpha<<isArraySortedIterative(a, n, 0);
     return 0;
 }
