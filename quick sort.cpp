@@ -1,5 +1,4 @@
 // quick sort.cpp
-// merge sort.cpp
 #include<iostream>
 using namespace std;
 // The bigger problem was to sort the complete array using choose pivot and create partition
